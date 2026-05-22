@@ -1,1 +1,13 @@
+# Environnement virtuel
+.venv/
+
+# Clés secrètes
 .env
+
+# Cache Python (Pour faire disparaître les fichiers pycache de Git)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Données locales (Pour ne jamais envoyer votre base de données sur GitHub)
+data/
