@@ -10,4 +10,4 @@ __pycache__/
 .pytest_cache/
 
 # Données locales (Pour ne jamais envoyer votre base de données sur GitHub)
-data/
+/data/

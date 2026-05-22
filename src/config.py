@@ -23,3 +23,11 @@ FRED_API_KEY = os.getenv("FRED_API_KEY")
 
 # 5. Configuration Macro (La cible du modèle)
 TARGET_SERIES = "CPIAUCSL"  # Code officiel FRED pour le US CPI (Consumer Price Index)
+
+# Actifs financiers à suivre sur Yahoo Finance
+MARKET_TICKERS = {
+    "WTI": "CL=F",
+    "DXY": "DX-Y.NYB",
+    "SPY": "SPY",
+    "GOLD": "GC=F"
+}
